@@ -1,4 +1,4 @@
 # simple-django-notes-app
 It is a simple django app for practising to undertand better model-user relationship and forms.
 
-![alt-text](https://gifmaker.me/files/download/home/20200504/23/lCIFyx6oMA9zL3n7ydalqx/output_JfboQn.gif)
+![alt-text](https://im2.ezgif.com/tmp/ezgif-2-b0a68465dac8.gif)
