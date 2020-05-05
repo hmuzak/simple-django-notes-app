@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+
+
+{% block content %}
+    <div class="container notes-app">
+        <div class="container notes-app-container" id="">
+
+           <div class="container-display-text">
+                <h3 id="display-content" class="text-center mb-5">{{ notes.title }}</h3>
+                <p>{{ notes.content }}</p>
+           </div>
+        </div>
+    </div>
+
+
+{% endblock %}

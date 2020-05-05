@@ -1,0 +1,125 @@
+.register-photo {
+  background: #f1f7fc;
+  padding: 80px 0;
+}
+
+.register-photo .image-holder {
+  display: table-cell;
+  width: auto;
+  background: url(../../assets/img/meeting.jpg);
+  background-size: cover;
+}
+
+.register-photo .form-container {
+  display: table;
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.register-photo form {
+  display: table-cell;
+  width: 400px;
+  background-color: #ffffff;
+  padding: 40px 60px;
+  color: #505e6c;
+}
+
+@media (max-width:991px) {
+  .register-photo form {
+    padding: 40px;
+  }
+}
+
+.register-photo form h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.register-photo form .form-control {
+  border-radius: 0;
+  box-shadow: none;
+  outline: none;
+  text-indent: 6px;
+  height: 40px;
+}
+
+.register-photo form .form-check {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.register-photo form .btn-primary {
+  border: none;
+  border-radius: 4px;
+  padding: 11px;
+  box-shadow: none;
+  margin-top: 35px;
+  text-shadow: none;
+  outline: none !important;
+}
+
+.register-photo form .btn-primary:hover, .register-photo form .btn-primary:active {
+}
+
+.register-photo form .btn-primary:active {
+  transform: translateY(1px);
+}
+
+.register-photo form .already {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #6f7a85;
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+.form-control.reg-input {
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: inherit;
+  border: 1px solid #464646;
+  color: rgb(222,222,222);
+}
+
+.form-control.reg-input:focus {
+  box-shadow: 0px 0px 5px 5px rgba(72,151,156,0.75);
+}
+
+.nav-link {
+  margin-right: 10px;
+}
+
+.form-control.reg-input.login-input {
+}
+
+.container.login-div {
+  max-width: 600px;
+  padding: 60px;
+  text-align: center;
+}
+
+.icon.ion-ios-locked-outline {
+  color: #17a2b8;
+}
+
+.text-light.title-product-item {
+  overflow: hidden;
+}
+
+.col-md-3.col-xl-3.note-product {
+}
+
+.col-md-3.col-xl-3.note-product:hover {
+}
+
+.item-div {
+  padding: 48px 30px;
+  border: 2px solid #464646;
+  border-radius: 6px;
+}
+

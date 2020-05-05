@@ -1,0 +1,40 @@
+#create-form label{
+    color: white;
+    font-size: 18px ;
+    margin-top: 15px;
+}
+
+.register-form .form-group .reg-input{
+            background-color: inherit;
+            border: 1px solid #464646;
+}
+#create-form{
+    padding: 25px;
+}
+#create-form textarea{
+    resize: none;
+}
+#create-form input, #create-form textarea{
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid #464646;
+    background: inherit;
+    color: #d6d6d6;
+    font-family: 'Ubuntu', sans-serif;
+}
+.save-btn{
+    width: 250px;
+    margin-top: 25px;
+}
+
+.container-display-text{
+    margin-top: 35px;
+    background: rgba(138, 30, 196, 0.23);
+    border-radius: 36px;
+}
+.notes-app-container .container-display-text{
+    color: white;
+    padding: 75px 25px 75px 25px;
+
+}

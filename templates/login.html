@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <div class="container login-div" style="background-color: rgb(33,37,41);border: 2px solid #464646;margin-top: 150px;">
+        <form method="post" style="font-family: Ubuntu, sans-serif;">
+            {% csrf_token %}
+            <h2 class="sr-only">Login Form</h2>
+            <div class="illustration">
+                <h1 class="text-info" style="font-weight: lighter;">Login</h1><i class="icon ion-ios-locked-outline" style="font-size: 80px;"></i></div>
+            <div class="form-group"><input class="form-control reg-input login-input py-4 px-3" type="text" placeholder="Username" name="username"></div>
+            <div class="form-group"><input class="form-control reg-input py-4 px-3" type="password" name="password" placeholder="Password"></div>
+            <div class="form-group"><button class="btn btn-info btn-block" type="submit">Log In</button></div>
+        </form>
+    </div>
+{% endblock %}

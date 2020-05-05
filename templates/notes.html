@@ -1,0 +1,22 @@
+{% extends 'index.html' %}
+
+{% block content %}
+    <div class="container notes-app">
+        <h1 class="text-center text-light py-5">My Notes...</h1>
+        <div class="row">
+
+            {% for note in notes %}
+                <div class="col-md-4 col-xl-4 note-product">
+                    <div class="item-div d-flex flex-column align-items-center justify-content-center mt-3">
+                        <h1 class="text-center text-light title-product-item mb-4" style="font-size: 23px;font-family: Ubuntu, sans-serif;">{{ note.title }}</h1>
+                        <p class="text-center text-light mb-0" style="font-size: 19px;font-family: Ubuntu, sans-serif;">{{  note.date }}</p>
+                        <p class="text-center text-light" style="font-size: 17px;font-family: Ubuntu, sans-serif;">{{ note.hour }}</p>
+                        <a class="d-flex align-items-center justify-content-center p-1 text-decoration-none" href="{% url 'display_note_page' id=note.id %}" style="font-size: 20px;">Display note<i class="material-icons ml-2">create</i></a>
+                        <a class="d-flex align-items-center justify-content-center p-1 text-decoration-none" href="{% url 'delete_note_page' id=note.id %}" style="font-size: 20px;">Delete note<i class="material-icons ml-2">create</i></a>
+                    </div>
+                </div>
+            {% endfor %}
+
+        </div>
+    </div>
+{% endblock %}
